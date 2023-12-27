@@ -1,0 +1,31 @@
+#title{
+    background-color: black;
+}
+
+.optionsMenu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menuTable{
+    width: 100%;
+}
+
+.menuButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 10rem;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+    background: linear-gradient(90deg, rgb(230, 140, 170) 0%, rgb(230, 112, 212) 49%, rgb(238, 100, 240) 100%);
+}
+
+.menuButton:hover {
+    background: black;
+    color: rgb(238, 100, 240);
+    border: 1px solid black;
+    border-color: rgb(238, 100, 240);
+}
