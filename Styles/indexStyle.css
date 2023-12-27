@@ -7,6 +7,10 @@
     margin-bottom: 10px;
 }
 
+.body{
+    background-color: rgba(243, 239, 239, 0.887);
+}
+
 .menuTable{
     width: 100%;
 }
@@ -28,4 +32,46 @@
     color: rgb(238, 100, 240);
     border: 1px solid black;
     border-color: rgb(238, 100, 240);
+}
+
+
+
+.card-counter{
+    position: absolute;
+    box-shadow: 2px 2px 10px #DADADA;
+    padding: 10px 10px;
+    background-color: #fff;
+    height: 80px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#totalPaletas{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(251, 170, 184);
+}
+
+#totalSombras{
+    margin-left: 300px;
+    margin-top: 20px;
+    background-color: rgb(251, 170, 184);
+}
+
+.card-counter .count-numbers{
+    font-size: 20px;
+    display: block;
+    user-select: none;
+}
+
+.card-counter .count-name{
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.5;
+    display: block;
+    font-size: 18px;
+    user-select: none;
 }
