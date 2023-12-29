@@ -16,7 +16,7 @@
     <div class="optionsMenu">
       <table class="menuTable">
         <tr>
-          <td><button class="menuButton">NUEVA PALETA</button></td>
+          <td><button class="menuButton" onclick="alertar();">NUEVA PALETA</button></td>
           <td><button class="menuButton">SORTEO</button></td>
           <td><button class="menuButton">MIS PALETAS</button></td>
           <td><button class="menuButton">INICIO SESIÓN</button></td>
@@ -35,11 +35,17 @@
     <span class="count-name" none>Sombras</span>
   </div>
 
-  <script>
-    let scriptUrl = 'https://docs.google.com/spreadsheets/d/1U4Vw_6xDzYrrn4Vkkup0RxQr36mwRdbZZXgWFLxXmdk/edit?usp=sharing';
-    
+  <form method="post" action="info.php">
+    <input type="submit" name="Borrar" value="Borrar">
+  </form>
+
+  <script type="text/javascript">
+      function alertar() {
+        alert("Hola");
+      }
   </script>
 
 </body>
 
 </html>
+
